@@ -8,16 +8,16 @@ trigger:
 
 variables:
   # Azure Resource Manager connection created during pipeline creation
-  azureServiceConnectionId: '{{ azureServiceConnection.Id }}'
+  azureServiceConnectionId: '6a04b49e-af95-43da-8018-a8253014460b'
   
   # Web app name
-  webAppName: '{{ webAppName }}'
+  webAppName: 'Flask Tutorial'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
 
   # Environment name
-  environmentName: '{{ webAppName }}'
+  environmentName: 'Flask Tutorial'
 
   # Project root folder. Point to the folder containing manage.py file.
   projectRoot: $(System.DefaultWorkingDirectory)
