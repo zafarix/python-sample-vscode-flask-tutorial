@@ -1,40 +1,3 @@
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@zafarix 
-Learn Git and GitHub without any code!
-Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
-
-
-microsoft
-/
-azure-pipelines-yaml
-97
-614
-365
-Code
-Issues
-Pull requests
-18
-Actions
-Projects
-Wiki
-Security
-Insights
-azure-pipelines-yaml/templates/python-to-linux-webapp-on-azure.yml
-@chperich
-chperich 1.Moving python django template to linux. 2.And set environment defau…
-…
-Latest commit 3aaaba5 on Aug 7, 2019
- History
- 1 contributor
-87 lines (73 sloc)  2.37 KB
-  
 # Python to Linux Web App on Azure
 # Build your Python project and deploy it to Azure as a Linux Web App.
 # Change python version to one thats appropriate for your application.
@@ -121,4 +84,3 @@ stages:
               azureSubscription: $(azureServiceConnectionId)
               appName: $(webAppName)
               package: $(Pipeline.Workspace)/drop/$(Build.BuildId).zip
-
